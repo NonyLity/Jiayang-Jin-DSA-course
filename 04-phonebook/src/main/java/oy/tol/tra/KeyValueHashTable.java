@@ -22,7 +22,7 @@ public class KeyValueHashTable<K extends Comparable<K>, V> implements Dictionary
     public KeyValueHashTable() throws OutOfMemoryError {
         ensureCapacity(DEFAULT_CAPACITY);
     }
-
+//
     @Override
     public Type getType() {
         return Type.HASHTABLE;
